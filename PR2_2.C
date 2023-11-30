@@ -4,7 +4,7 @@ void main(){
 	float unit,bill,extchar,billamt;
 	clrscr();
 	printf("=====+++=====+++=====");
-	printf("\nEnter Units: \n");
+	printf("\nEnter Units: ");
 	scanf("%f",&unit);
 	if(unit<50){
 		billamt=unit*0.50;
